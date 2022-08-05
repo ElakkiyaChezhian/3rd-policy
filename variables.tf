@@ -13,9 +13,6 @@ variable "region" {
 variable "google_apigee_envgroup" {
     type = string
 }
-variable "google_apigee_instance" {
-    type = string
-}
 variable "google_compute_region_backend_service" {
     type = string
 }
