@@ -1,27 +1,10 @@
-variable "project_id" {
-    type= string
-}
-variable "network" {
-  type = string
-}
-variable "google_compute_global_address" {
-    type = string
-}
-variable "region" {
-    type = string
-}
-variable "google_apigee_environment" {
-    type = string
-}
-variable "google_apigee_envgroup" {
-    type = string
-}
-variable "google_compute_region_backend_service" {
-    type = string
-}
-variable "google_compute_health_check" {
-    type = string
-}
-variable "google_compute_forwarding_rule" {
-    type = string
-}
+project_id = "internal-test-prj-ly"
+project_id2 = "spatial-ship-354209"
+network = "apigee-network"
+google_compute_global_address="apigee-range"
+region="us-east1"
+google_apigee_environment="apigee-env-dev"
+google_apigee_envgroup="tf-dev-internal"
+google_compute_region_backend_service="producer-service"
+google_compute_health_check="producer-service-health-check"
+google_compute_forwarding_rule="apigee-forwarding-rule"
